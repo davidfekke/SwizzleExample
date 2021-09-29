@@ -6,11 +6,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TaxCalculator.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        TaxCalculator *calc = [[TaxCalculator alloc] init];
+        calc.revenue = [NSNumber numberWithInteger:100000];
+        NSNumber *taxesOwed = [calc whatAreMyTaxes];
+        NSLog(@"My taxes for 100000 are $%@", [taxesOwed stringValue]);
     }
     return 0;
 }

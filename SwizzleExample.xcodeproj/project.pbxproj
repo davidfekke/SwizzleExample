@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B2E41F0C27049FD900CF749E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E41F0B27049FD900CF749E /* main.m */; };
+		B2E41F142704A00F00CF749E /* TaxCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E41F132704A00F00CF749E /* TaxCalculator.m */; };
+		B2E41F172704A28D00CF749E /* SimpleSwizzleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E41F162704A28D00CF749E /* SimpleSwizzleHelper.m */; };
+		B2E41F1A2704A34400CF749E /* TaxCalculator+rates2018.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E41F192704A34400CF749E /* TaxCalculator+rates2018.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		B2E41F0827049FD900CF749E /* SwizzleExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwizzleExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E41F0B27049FD900CF749E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2E41F122704A00F00CF749E /* TaxCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaxCalculator.h; sourceTree = "<group>"; };
+		B2E41F132704A00F00CF749E /* TaxCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxCalculator.m; sourceTree = "<group>"; };
+		B2E41F152704A28D00CF749E /* SimpleSwizzleHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleSwizzleHelper.h; sourceTree = "<group>"; };
+		B2E41F162704A28D00CF749E /* SimpleSwizzleHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleSwizzleHelper.m; sourceTree = "<group>"; };
+		B2E41F182704A34400CF749E /* TaxCalculator+rates2018.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaxCalculator+rates2018.h"; sourceTree = "<group>"; };
+		B2E41F192704A34400CF749E /* TaxCalculator+rates2018.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TaxCalculator+rates2018.m"; sourceTree = "<group>"; };
+		B2E41F1B2704A52D00CF749E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +51,7 @@
 		B2E41EFF27049FD900CF749E = {
 			isa = PBXGroup;
 			children = (
+				B2E41F1B2704A52D00CF749E /* README.md */,
 				B2E41F0A27049FD900CF749E /* SwizzleExample */,
 				B2E41F0927049FD900CF749E /* Products */,
 			);
@@ -58,6 +69,12 @@
 			isa = PBXGroup;
 			children = (
 				B2E41F0B27049FD900CF749E /* main.m */,
+				B2E41F122704A00F00CF749E /* TaxCalculator.h */,
+				B2E41F132704A00F00CF749E /* TaxCalculator.m */,
+				B2E41F152704A28D00CF749E /* SimpleSwizzleHelper.h */,
+				B2E41F162704A28D00CF749E /* SimpleSwizzleHelper.m */,
+				B2E41F182704A34400CF749E /* TaxCalculator+rates2018.h */,
+				B2E41F192704A34400CF749E /* TaxCalculator+rates2018.m */,
 			);
 			path = SwizzleExample;
 			sourceTree = "<group>";
@@ -119,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2E41F1A2704A34400CF749E /* TaxCalculator+rates2018.m in Sources */,
 				B2E41F0C27049FD900CF749E /* main.m in Sources */,
+				B2E41F172704A28D00CF749E /* SimpleSwizzleHelper.m in Sources */,
+				B2E41F142704A00F00CF749E /* TaxCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
